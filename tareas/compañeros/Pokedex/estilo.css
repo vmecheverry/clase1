@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+	background-image:url("img/fondo.jpg");
+}
+
+.nav-class {
+	height: 50px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: red;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	
+
+
+}
+
+.header-class {
+		height: 50px;
+		width: 1024px;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: 'Open Sans', sans-serif;
+
+}
+
+#pokedex {
+	height: 600px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("img/pokedex.png");
+	border-radius: 20px;
+	box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.class-titulo {
+	margin-left: 570px;
+	font-size: 50px;
+}
+
+.class-nombrepokemon {
+margin-top: 100px;
+margin-left: 490px;
+display:none;
+}
+
+.class-datospokemon {
+margin-left: 490px;
+display:none;
+
+}
+
+.class-imagen {
+	margin-top: -160px;
+	margin-left: 50px;
+}
+
+.class-infoinicio {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.class-boton {
+	margin-left: 630px;
+	margin-top: 20px;
+	display: none;
+}
+
+
+
+
+
+
+li {
+	list-style-type:none;
+	display: inline;
+	font-size: 25px;
+	margin-left:  90px;
+	color: white;
+
+
+
+	
+}
+
+

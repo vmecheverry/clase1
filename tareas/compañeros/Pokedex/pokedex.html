@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>POKEDEX</title>
+	<script type="text/javascript" src="document.js">
+	</script>
+	<link href="estilo.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<audio id="sonido-pika" src="audio/pika.mp3"></audio>
+	
+
+	<nav class="nav-class">
+<ul>
+		<li onclick="pikachu();mostrar();ocultar();">Pikachu</li>
+		
+		<li onclick="charmander();mostrar();ocultar();">Charmander</li>
+
+		<li onclick="squirtle();mostrar();ocultar();">Squirtle</li>
+
+		<li onclick="baulbasaur();mostrar();ocultar();">Bulbasaur</li>
+
+</ul>
+	</nav>
+	
+	
+
+
+	<div id="pokedex">
+
+		<h1 class="class-titulo">Pokedex</h1>
+		<h2 class="class-nombrepokemon" id="nombrePokemon">Pokemon de prueba</h2>
+			<p class="class-datospokemon" id="datosPokemon">Datos de prueba</p>
+	<img class="class-imagen" id="fotoPokemon"></img>
+	<p class="class-infoinicio" id="inicio">Bienvenido al sistema Pokedex,</br> selecciona unos de los pokemon en</br> nuestro menú superior para obtener</br> sus datos</p>
+
+	<audio id="sonido">
+</audio>
+<button id="botonGrito" class="class-boton" onclick="javascript:document.getElementById('sonido').play();">
+Grito del Pokemon</button>
+
+	</div>
+
+	 <script type="text/javascript">
+	
+	</script> 
+</body>
+</html>
